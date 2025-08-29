@@ -31,13 +31,6 @@ A modern YouTube-like video platform built with Next.js 15, tRPC, Drizzle ORM, a
 - **Search Results Page** - Dedicated page for search results
 - **Real-time Search** - Instant search with navigation
 
-### ✅ Video Watch Page
-
-- **Video Player** - Mux-powered video streaming
-- **Video Information** - Title, description, upload date, category
-- **Video Actions** - Like, dislike, share, download buttons
-- **Related Videos** - Sidebar with suggested videos
-
 ### ✅ Navigation & Sidebar
 
 - **Home Sidebar** - Quick access to main sections
@@ -67,34 +60,6 @@ A modern YouTube-like video platform built with Next.js 15, tRPC, Drizzle ORM, a
 - **Video Processing**: Mux
 - **Styling**: Tailwind CSS, Shadcn/ui
 - **File Upload**: UploadThing
-
-## 📁 Project Structure
-
-```
-src/
-├── app/                    # Next.js app router
-│   ├── (auth)/            # Authentication pages
-│   ├── (home)/            # Home layout pages
-│   ├── (studio)/          # Studio dashboard
-│   ├── feed/              # Feed pages (trending, subscriptions)
-│   ├── playlists/         # Playlist pages
-│   ├── search/            # Search results
-│   └── watch/             # Video watch page
-├── components/            # Reusable UI components
-│   ├── ui/               # Shadcn/ui components
-│   ├── video-card.tsx    # Video card component
-│   ├── video-grid.tsx    # Video grid layout
-│   └── ...
-├── modules/              # Feature modules
-│   ├── auth/            # Authentication components
-│   ├── category/        # Category management
-│   ├── home/            # Home page components
-│   ├── studio/          # Studio components
-│   └── videos/          # Video components
-├── db/                  # Database schema and config
-├── lib/                 # Utility libraries
-└── trpc/               # tRPC configuration
-```
 
 ## 🚀 Getting Started
 
@@ -173,23 +138,6 @@ src/
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-- `npm run db:push` - Push database schema
-- `npm run db:seed` - Seed database with categories
-
-## 📱 Pages Available
-
-- **/** - Home page with video grid
-- **/search** - Search results page
-- **/watch/[videoId]** - Individual video watch page
-- **/feed/trending** - Trending videos
-- **/feed/subscriptions** - Subscription feed
-- **/playlists** - User playlists
-- **/playlists/history** - Watch history
-- **/playlists/liked-videos** - Liked videos
-- **/studio** - Creator studio dashboard
-- **/sign-in** - Authentication pages
-- **/sign-up** - Registration pages
 
 ## 🎨 UI Components
 
@@ -202,17 +150,6 @@ The project uses a complete set of UI components including:
 - Video player
 - Action buttons
 - Form components
-
-## 🚧 Future Enhancements
-
-- Comments system
-- Subscription functionality
-- Playlist creation and management
-- Live streaming
-- Video recommendations algorithm
-- Analytics dashboard
-- Content moderation
-- Mobile app
 
 ---
 
