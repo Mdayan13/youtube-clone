@@ -25,12 +25,6 @@ A modern YouTube-like video platform built with Next.js 15, tRPC, Drizzle ORM, a
 - **Video Cards** - Show thumbnails, titles, channels, upload dates
 - **Responsive Design** - Works on desktop and mobile
 
-### ✅ Search Functionality
-
-- **Global Search** - Search videos by title and description
-- **Search Results Page** - Dedicated page for search results
-- **Real-time Search** - Instant search with navigation
-
 ### ✅ Navigation & Sidebar
 
 - **Home Sidebar** - Quick access to main sections
@@ -112,20 +106,6 @@ A modern YouTube-like video platform built with Next.js 15, tRPC, Drizzle ORM, a
 - Thumbnail generation and custom upload
 - Real-time upload progress
 
-### Search & Discovery
-
-- Global search across all videos
-- Category-based filtering
-- Trending algorithms
-- Related video suggestions
-
-### User Experience
-
-- Responsive design for all devices
-- Fast page transitions
-- Loading states and error handling
-- Optimistic UI updates
-
 ### Content Management
 
 - Studio dashboard for creators
@@ -138,19 +118,5 @@ A modern YouTube-like video platform built with Next.js 15, tRPC, Drizzle ORM, a
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run start` - Start production server
-
-## 🎨 UI Components
-
-The project uses a complete set of UI components including:
-
-- Video cards with hover effects
-- Responsive navigation
-- Loading skeletons
-- Search interface
-- Video player
-- Action buttons
-- Form components
-
----
 
 **Status**: ✅ **Project Complete** - All core features implemented and functional!
