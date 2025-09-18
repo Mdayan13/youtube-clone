@@ -1,6 +1,12 @@
+
 # NewTube - YouTube Clone
 
 A modern YouTube-like video platform built with Next.js 15, tRPC, Drizzle ORM, and Mux for video streaming.
+<div align="center">
+  <img src="https://pbs.twimg.com/media/GzhX9a3bkAAGK9e?format=jpg&name=large" alt="Movie Bot Screenshot 1" width="300" />
+  <br/><br/>
+  <img src="https://pbs.twimg.com/media/GzhX9azbAAA3Hdh?format=jpg&name=large" alt="Movie Bot Screenshot 2" width="300" />
+</div>
 
 ## 🚀 Getting Started
 
