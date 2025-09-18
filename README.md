@@ -2,59 +2,6 @@
 
 A modern YouTube-like video platform built with Next.js 15, tRPC, Drizzle ORM, and Mux for video streaming.
 
-## 🚀 Features Completed
-
-### ✅ Authentication & User Management
-
-- Clerk authentication integration
-- User registration and login
-- Protected routes for authenticated content
-
-### ✅ Video Management
-
-- Video upload with Mux integration
-- Video processing and streaming
-- Thumbnail management (auto-generated and custom)
-- Video metadata (title, description, category)
-- Video visibility controls (public/private)
-
-### ✅ Home Page & Video Discovery
-
-- **Video Grid Display** - Responsive video grid layout
-- **Category Filtering** - Filter videos by categories
-- **Video Cards** - Show thumbnails, titles, channels, upload dates
-- **Responsive Design** - Works on desktop and mobile
-
-### ✅ Navigation & Sidebar
-
-- **Home Sidebar** - Quick access to main sections
-- **Responsive Navigation** - Collapsible sidebar
-- **User Authentication State** - Different UI for signed-in users
-
-### ✅ Feed Pages
-
-- **Trending Feed** - Popular videos page
-- **Subscriptions Feed** - Videos from subscribed channels
-- **Watch History** - User's video history
-- **Liked Videos** - User's liked videos
-- **Playlists** - User's playlist management
-
-### ✅ Studio Dashboard
-
-- **Video Management** - Upload, edit, delete videos
-- **Analytics** - Video performance metrics
-- **Content Management** - Organize and manage content
-
-## 🛠 Tech Stack
-
-- **Frontend**: Next.js 15, React 19, TypeScript
-- **Backend**: tRPC, Drizzle ORM
-- **Database**: PostgreSQL (Neon)
-- **Authentication**: Clerk
-- **Video Processing**: Mux
-- **Styling**: Tailwind CSS, Shadcn/ui
-- **File Upload**: UploadThing
-
 ## 🚀 Getting Started
 
 1. **Clone and Install**
@@ -97,7 +44,53 @@ A modern YouTube-like video platform built with Next.js 15, tRPC, Drizzle ORM, a
    npm run dev
    ```
 
-## 🎯 Key Features in Detail
+
+- `npm run dev` - Start development server
+
+## 🚀 Features Completed
+
+### ✅ Authentication & User Management
+
+- Clerk authentication integration
+- User registration and login
+- Protected routes for authenticated content
+
+### ✅ Video Management
+
+- Video upload with Mux integration
+- Video processing and streaming
+- Thumbnail management (auto-generated and custom)
+- Video metadata (title, description, category)
+- Video visibility controls (public/private)
+
+### ✅ Home Page & Video Discovery
+
+
+- **Video Cards** - Show thumbnails, titles, channels, upload dates
+- **Responsive Design** - Works on desktop and mobile
+
+### ✅ Navigation & Sidebar
+
+- **Home Sidebar** - Quick access to main sections
+- **Responsive Navigation** - Collapsible sidebar
+- **User Authentication State** - Different UI for signed-in users
+
+### ✅ Studio Dashboard
+
+- **Video Management** - Upload, edit, delete videos
+- **Analytics** - Video performance metrics
+- **Content Management** - Organize and manage content
+
+## 🛠 Tech Stack
+
+- **Frontend**: Next.js 15, React 19, TypeScript
+- **Backend**: tRPC, Drizzle ORM
+- **Database**: PostgreSQL (Neon)
+- **Authentication**: Clerk
+- **Video Processing**: Mux
+- **Styling**: Tailwind CSS, Shadcn/ui
+- **File Upload**: UploadThing
+
 
 ### Video Upload & Processing
 
@@ -113,9 +106,6 @@ A modern YouTube-like video platform built with Next.js 15, tRPC, Drizzle ORM, a
 - Bulk video management
 - Content organization tools
 
-## 🔧 Available Scripts
-
-- `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 
